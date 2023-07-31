@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Watch Party</title>
+    <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet"/>
+    <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
+</head>
+<body>
+<video-js id="my_video_1" class="vjs-default-skin" controls preload="auto" width="640" height="268" data-setup='{}'>
+    <source src="/static/Stream/live.m3u8" type="application/x-mpegURL">
+</video-js>
+<script>
+    var player = videojs('my_video_1', {liveui: true});
+</script>
+</body>
+</html>
