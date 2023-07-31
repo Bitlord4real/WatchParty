@@ -9,6 +9,6 @@ I tried my best to keep this damn light but you still need a powerful system/ser
 Needless to say, after cloning the project with the command: pip install -r requirements.txt
 Both packages are installed together. (The important thing is Flask)
 If you encounter an error while running the code, run the following codes in the terminal:
-sudo apt-get install pkg-config libcairo2-dev
-sudo apt-get install libgirepository1.0-dev
+/ sudo apt-get install pkg-config libcairo2-dev
+/ sudo apt-get install libgirepository1.0-dev
 it's gonna be OK. => "INSHA ALLAH"
